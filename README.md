@@ -31,3 +31,17 @@ KieHelper kieHelper = new KieHelper();
 kieHelper.addContent(drl, ResourceType.DRL);
 KieSession session = kieHelper.build().newKieSession();
 ```
+**基于决策表的入门案例：**
+
+第一步：创建maven工程drools_decisiontable_demo并配置pom.xml文件
+
+第二步：创建实体类PersonInfoEntity
+
+第三步：创建xls规则文件（可以直接使用资料中提供的testRule.xls文件）
+
+第四步：创建单元测试
+
+
+测试结果图：
+![image](https://user-images.githubusercontent.com/47050618/123507801-15920500-d69e-11eb-874b-ee103079fb87.png)
+
